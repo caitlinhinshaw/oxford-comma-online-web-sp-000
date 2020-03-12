@@ -1,3 +1,4 @@
 def oxford_comma(array)
-  array.join(", ")
+  last_item = array[-1]
+  list = array.pop.join(", ")
 end
