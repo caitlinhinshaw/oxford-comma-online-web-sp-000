@@ -8,5 +8,5 @@ def oxford_comma(array)
     list = array.join(", ")
     list << ", and #{last_item}"
   end
-  
+
 end
